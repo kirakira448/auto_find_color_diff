@@ -12,7 +12,7 @@ class ColorDifferenceGame:
         pyautogui.FAILSAFE = True
         pyautogui.PAUSE = 0
 
-        self.wait_time = 0.5
+        self.wait_time = 0.1
         # 初始化颜色差异检测器
         self.detector = ColorDifferenceDetector(threshold=10.0)
         self.mouse_event = MouseEvent()
